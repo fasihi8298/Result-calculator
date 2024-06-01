@@ -51,3 +51,58 @@
         .isl {
             margin-left: 35px;
         }
+
+        
+        .mth {
+            margin-left: 64px;
+        }
+
+        .sci {
+            margin-left: 51px;
+        }
+
+        .urd {
+            margin-left: 65px;
+        }
+
+        .bt {
+            margin: auto;
+            margin-left: 307px;
+            border-radius: 4px;
+            padding: 8px;
+
+        }
+
+        button {
+            padding: 9px;
+            background-color: transparent;
+            color: rgb(0, 0, 0);
+            border: 1px solid black;
+            border-radius: 4px;
+            width: 100px;
+            margin-top: 7px;
+            margin-left: 240px;
+        }
+
+        h1 {
+            margin-top: 20px;
+
+        }
+
+        h3 {
+            margin-left: 250px;
+        }
+
+        h4 {
+           
+            margin-left: 330px;
+            margin-top: 61px;
+            color: rgb(0, 0, 0);
+           
+        }
+        .bbb{
+            margin-bottom: -29px;
+       }
+       .h{
+        margin-bottom: -20px;
+       }
