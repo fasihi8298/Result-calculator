@@ -23,3 +23,27 @@ function gradecalculator() {
     var percentage = (totalMarks / 500) * 100;
 
     document.getElementsByTagName("h4")[4].textContent = "Percentage : " + percentage.toFixed(0) + "%";
+  // GRADE SET //
+
+  var grade = "";
+  if (percentage >= 90) {
+      grade = "A+";
+  } else if (percentage >= 80) {
+      grade = "A";
+  } else if (percentage >= 70) {
+      grade = "B";
+  } else if (percentage >= 60) {
+      grade = "C";
+  } else if (percentage >= 50) {
+      grade = "D";
+  } else {
+      grade = "F";
+  }
+
+  document.getElementsByTagName("h4")[2].textContent = "Grade : " + grade;
+
+  // STATUS PASS OR FAIL ???? //
+
+  var status = (grade === "F") ? "Fail" : "Pass";
+  document.getElementsByTagName("h4")[3].textContent = "Status : " + status;
+}
